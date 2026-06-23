@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+
+    <script src="https://unpkg.com/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+
+	<script src="../aframe-teleport-controls.min.js"></script>
+    <script src="../assets/aframe-physics-system.min.js"></script>
+
+    <script src="./lod-manager.js"></script> 
+  
+</head>
+<body>
+
+    <a-scene  distance-check cursor="rayOrigin: mouse" raycaster="objects:.raycastable" stats loading-screen="dotsColor: gray; backgroundColor: lightgray" physics="debug: false; gravity: 0; restitution: 0.9; ">
+        <a-assets timeout="300000">
+         
+            <!-- phoenix -->
+            <a-assets-item id="M1" src="../server_assets/phoenix_bird/removed0.95/phoenix-removed0.95.gltf"></a-assets-item>
+
+            <!--hover bike-->       
+            <a-assets-item id="M2" src="../server_assets/hover_bike_-_the_rocket/removed0.95/Untitled_rz512.glb"></a-assets-item>
+
+            <!-- drone -->
+            <a-assets-item id="M3" src="../server_assets/buster_drone/removed0.95/Untitled_rz512.glb"></a-assets-item>
+
+            <!-- man -->
+            <a-assets-item id="M4" src="../server_assets/the_noble_craftsman/removed0.95/Untitled_rz512.glb"></a-assets-item>
+
+            <!-- girl -->
+            <a-assets-item id="M7" src="../server_assets/sci-fi_girl_v.02_walkcycle_test/removed0.95/Untitled_rz512.glb"></a-assets-item>
+
+            <!-- the solar pannel -->
+            <a-assets-item id="M8" src="../server_assets/sci-fi_solar_power_tower_free-download/removed0.95/Untitled_rz512.glb"></a-assets-item> 
+
+            <!-- boat -->     
+            <a-assets-item id="M5" src="../server_assets/herculaneum-boat-roman-boat/removed0.95/Untitled_rz512.glb"></a-assets-item>
+
+            <!-- the hibiscus -->
+            <a-assets-item id="M6" src="../server_assets/blooming_hibiscus_time-lapse_animation/removed0.95/Untitled_rz512.glb"></a-assets-item>
+ 		</a-assets>
+
+		<!-- Controller -->
+        
+
+        <a-sky color="#87CEEB"></a-sky> 
+		<a-entity id="ground" environment="preset: default"></a-entity> <!-- ground: none -->
+        <a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #CEE4F0; intensity: 1; groundColor: #454545" visible=""></a-entity>
+
+        <a-entity class="environment" position="-0.5771 1.40098 1.33354" light="intensity: 0.5; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10; type: spot" visible=""></a-entity>
+        
+        <a-entity id="rig" movement-controls="speed: 0.515" move path-recorder>
+            <a-entity 
+                id="head"
+                camera
+                look-controls
+                position="0 1.6 0">
+            </a-entity>
+            <a-entity id="ctlL" laser-controls="hand: right" raycaster="objects: .raycastable; far:50"></a-entity>
+            <a-entity id="ctlR" laser-controls="hand: left" raycaster="objects: .raycastable; far: 30"></a-entity>
+        </a-entity> 
+        <!-- movement -->
+        <script>
+            AFRAME.registerComponent('move', {
+            init: function () {
+                this.el.addEventListener('thumbstickmoved', (e) => {
+                if (e.detail.hand !== 'left') return;
+
+                const rig = this.el;
+                const x = e.detail.x;
+                const y = e.detail.y;
+
+                rig.object3D.position.x += x * 0.05;
+                rig.object3D.position.z += y * 0.05;
+                });
+            }
+            });
+        </script>
+
+        <!-- information -->
+             
+        <a-gltf-model id="model0" src="#M1" visible="true" position="15 2 -22" scale="0.006 0.006 0.006" rotation="0 220 0" class="collidable" animation-mixer></a-gltf-model>
+       
+        <a-gltf-model id="model1" src="#M2" visible="true" position="5 0 -22" scale="0.005 0.005 0.005" rotation="0 295 0" class="collidable" animation-mixer></a-gltf-model>
+        
+        <a-gltf-model id="model2" src="#M3" visible="true" position="-5 2 -22" scale="1.5 1.5 1.5" rotation="0 0 0" class="collidable" animation-mixer></a-gltf-model>
+      
+        <a-gltf-model id="model3" src="#M4" visible="true" position="-15 0.1 -22" scale="0.03 0.03 0.03" rotation="0 0 0" class="collidable" animation-mixer></a-gltf-model>
+        
+        <a-gltf-model id="model4" src="#M5" visible="true" position="-15 0 -10" scale="1 1 1" rotation="0 -45 0" class="collidable" animation-mixer></a-gltf-model>
+
+        <a-gltf-model id="model5" src="#M6" visible="true" position="15 2.5 -10" scale="3 3 3" rotation="0 295 0" class="collidable" animation-mixer></a-gltf-model>
+       
+        <a-gltf-model id="model6" src="#M7" visible="true" position="-5 0 -10" scale="2 2 2 " rotation="0 0 0" class="collidable" animation-mixer></a-gltf-model>
+        
+        <a-gltf-model id="model7" src="#M8" visible="true" position="5 0 -10" scale="0.05 0.05 0.05" rotation="0 180 0" class="collidable" animation-mixer></a-gltf-model>
+
+   
+<a-text id="notification" value= "" position="-0.2 0.9 -1" color="red" scale="0.2 0.2 0.2"></a-text>
+</a-text>
+	</a-scene>
+
+    
+    
+</body>
+</html>
