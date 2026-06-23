@@ -7,5 +7,9 @@
 - `client/`       — A-Frame WebVR client
 - `server_asset/` — 3D mesh assets (glTF/GLB) with LoD variants
 
-`cd webvr-adaptive-lod/
-python python_server/optimize_server.py`
+## Run the Optimization Server
+
+```bash
+cd webvr-adaptive-lod
+python python_server/optimize_server.py
+```
