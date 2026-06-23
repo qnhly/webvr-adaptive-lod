@@ -1,0 +1,134 @@
+{
+  "models": [
+    {
+      "id": "M1",
+      "name": "phoenix_bird",
+      "s_geo": 0.044,
+      "s_col": 0.093,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 3250,  "url": "phoenix_bird/removed0.2/Untitled.glb", "gpusize": 3.48 },
+        { "level": 2, "ratio": 60, "faces": 2436,  "url": "phoenix_bird/removed0.4/Untitled.glb", "gpusize":3.48 },
+        { "level": 3, "ratio": 50, "faces": 2030,  "url": "phoenix_bird/removed0.5/phoenix-removed0.5.gltf", "gpusize":3.48 },
+        { "level": 4, "ratio": 40, "faces": 1635,  "url": "phoenix_bird/removed0.6/Untitled.glb", "gpusize":3.48 },
+        { "level": 5, "ratio": 30, "faces": 1218,  "url": "phoenix_bird/removed0.7/phoenix-removed0.7.gltf", "gpusize":3.48 },
+        { "level": 6, "ratio": 20, "faces": 812,   "url": "phoenix_bird/removed0.8/Untitled.glb", "gpusize":3.48 },
+        { "level": 7, "ratio": 10, "faces": 406,   "url": "phoenix_bird/removed0.9/phoenix-removed0.9.gltf", "gpusize":3.48 },
+        { "level": 8, "ratio": 5,"faces": 202,   "url": "phoenix_bird/removed0.95/phoenix-removed0.95.gltf", "gpusize":3.48 }
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "hover_bike",
+      "s_geo": 0.043,
+      "s_col": 0.060,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 20193, "url": "hover_bike_-_the_rocket/removed0.2/Untitled_rz2048.glb", "gpusize": 89.48 },
+        { "level": 2, "ratio": 60, "faces": 15144, "url": "hover_bike_-_the_rocket/removed0.4/Untitled_rz2048.glb", "gpusize": 89.48 },
+        { "level": 3, "ratio": 50, "faces": 12623, "url": "hover_bike_-_the_rocket/removed0.5/Untitled_rz2048.glb", "gpusize": 89.48 },
+        { "level": 4, "ratio": 40, "faces": 10094, "url": "hover_bike_-_the_rocket/removed0.6/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 5, "ratio": 30, "faces": 7570,  "url": "hover_bike_-_the_rocket/removed0.7/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 6, "ratio": 20, "faces": 5045,  "url": "hover_bike_-_the_rocket/removed0.8/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 7, "ratio": 10, "faces": 2522,  "url": "hover_bike_-_the_rocket/removed0.9/Untitled_rz512.glb", "gpusize": 5.6 },
+        { "level": 8, "ratio": 5,"faces": 1260,  "url": "hover_bike_-_the_rocket/removed0.95/Untitled_rz512.glb", "gpusize": 5.6 }
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "buster_drone",
+      "s_geo": 0.058,
+      "s_col": 0.068,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 26149, "url": "buster_drone/removed0.2/Untitled_rz2048.glb", "gpusize": 201.67 },
+        { "level": 2, "ratio": 60, "faces": 19606, "url": "buster_drone/removed0.4/Untitled_rz2048.glb", "gpusize": 201.67 },
+        { "level": 3, "ratio": 50, "faces": 16361, "url": "buster_drone/removed0.5/Untitled_rz2048.glb", "gpusize": 201.67 },
+        { "level": 4, "ratio": 40, "faces": 13063, "url": "buster_drone/removed0.6/Untitled_rz1024.glb", "gpusize":50.65 },
+        { "level": 5, "ratio": 30, "faces": 9826,  "url": "buster_drone/removed0.7/Untitled_rz1024.glb", "gpusize":50.65 },
+        { "level": 6, "ratio": 20, "faces": 6526,  "url": "buster_drone/removed0.8/Untitled_rz1024.glb", "gpusize":50.65 },
+        { "level": 7, "ratio": 10, "faces": 3326,  "url": "buster_drone/removed0.9/Untitled_rz512.glb", "gpusize": 12.94 },
+        { "level": 8, "ratio": 5,  "faces": 1703,  "url": "buster_drone/removed0.95/Untitled_rz512.glb", "gpusize": 12.94 }
+      ]
+    },
+    {
+      "id": "M4",
+      "name": "the_noble_craftsman",
+      "s_geo": 0.049,
+      "s_col": 0.070,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 5457, "url": "the_noble_craftsman/removed0.2/Untitled_rz2048.glb", "gpusize":33.72 },
+        { "level": 2, "ratio": 60, "faces": 4087, "url": "the_noble_craftsman/removed0.4/Untitled_rz2048.glb", "gpusize":33.72 },
+        { "level": 3, "ratio": 50, "faces": 3589, "url": "the_noble_craftsman/removed0.5/Untitled_rz2048.glb", "gpusize":33.72 },
+        { "level": 4, "ratio": 40, "faces": 2719, "url": "the_noble_craftsman/removed0.6/Untitled_rz1024.glb", "gpusize": 16.94 },
+        { "level": 5, "ratio": 30, "faces": 2104, "url": "the_noble_craftsman/removed0.7/Untitled_rz1024.glb", "gpusize": 16.94 },
+        { "level": 6, "ratio": 20, "faces": 1349, "url": "the_noble_craftsman/removed0.8/Untitled_rz1024.glb", "gpusize": 16.94 },
+        { "level": 7, "ratio": 10, "faces": 790,  "url": "the_noble_craftsman/removed0.9/Untitled_rz512.glb", "gpusize": 4.37 },
+        { "level": 8, "ratio": 5,"faces": 398,  "url": "the_noble_craftsman/removed0.95/Untitled_rz512.glb", "gpusize": 4.37 }
+      ]
+    },
+    {
+      "id": "M5",
+      "name": "herculaneum_boat",
+      "s_geo": 0.073,
+      "s_col": 0.066,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 54106, "url": "herculaneum-boat-roman-boat/removed0.2/Untitled_rz2048.glb", "gpusize":89.48 },
+        { "level": 2, "ratio": 60, "faces": 41547, "url": "herculaneum-boat-roman-boat/removed0.4/Untitled_rz2048.glb", "gpusize":89.48 },
+        { "level": 3, "ratio": 50, "faces": 35144, "url": "herculaneum-boat-roman-boat/removed0.5/Untitled_rz2048.glb", "gpusize":89.48 },
+        { "level": 4, "ratio": 40, "faces": 28805, "url": "herculaneum-boat-roman-boat/removed0.6/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 5, "ratio": 30, "faces": 22482, "url": "herculaneum-boat-roman-boat/removed0.7/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 6, "ratio": 20, "faces": 16159, "url": "herculaneum-boat-roman-boat/removed0.8/Untitled_rz1024.glb", "gpusize": 22.36 },
+        { "level": 7, "ratio": 10, "faces": 9832,  "url": "herculaneum-boat-roman-boat/removed0.9/Untitled_rz512.glb", "gpusize": 5.6 },
+        { "level": 8, "ratio": 5,"faces": 6775,  "url": "herculaneum-boat-roman-boat/removed0.95/Untitled_rz512.glb", "gpusize": 5.6 }
+      ]
+    },
+    {
+      "id": "M6",
+      "name": "blooming_hibiscus",
+      "s_geo": 0.046,
+      "s_col": 0.041,
+      "lods": [
+        { "level": 1, "ratio": 80, "faces": 169489, "url": "blooming_hibiscus_time-lapse_animation/removed0.2/Untitled.glb", "gpusize": 36.35 },
+        { "level": 2, "ratio": 60, "faces": 127116, "url": "blooming_hibiscus_time-lapse_animation/removed0.4/Untitled.glb", "gpusize": 36.35 },
+        { "level": 3, "ratio": 50, "faces": 105935, "url": "blooming_hibiscus_time-lapse_animation/removed0.5/Untitled.glb", "gpusize": 36.35 },
+        { "level": 4, "ratio": 40, "faces": 84744,  "url": "blooming_hibiscus_time-lapse_animation/removed0.6/Untitled.glb", "gpusize": 36.35 },
+        { "level": 5, "ratio": 30, "faces": 63557,  "url": "blooming_hibiscus_time-lapse_animation/removed0.7/Untitled_rz512.glb", "gpusize": 9.05 },
+        { "level": 6, "ratio": 20, "faces": 42366,  "url": "blooming_hibiscus_time-lapse_animation/removed0.8/Untitled_rz512.glb", "gpusize": 9.05 },
+        { "level": 7, "ratio": 10, "faces": 21178,  "url": "blooming_hibiscus_time-lapse_animation/removed0.9/Untitled_rz512.glb", "gpusize": 9.05 },
+        { "level": 8, "ratio": 5,  "faces": 10588,  "url": "blooming_hibiscus_time-lapse_animation/removed0.95/Untitled_rz512.glb", "gpusize": 9.05 }
+      ]
+    },
+    
+ {
+      "id": "M7",
+      "name":"girl",
+      "s_geo": 0.031,
+      "s_col": 0.034,
+      "lods":[  
+        { "level": 1, "ratio": 80, "faces": 65122, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.2/Untitled_rz2048.glb", "gpusize": 288.02 },
+        { "level": 2, "ratio": 60, "faces": 52277, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.4/Untitled_rz2048.glb", "gpusize": 288.02 },
+        { "level": 3, "ratio": 50, "faces": 46493, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.5/Untitled_rz2048.glb", "gpusize": 288.02 },
+        { "level": 4, "ratio": 40, "faces": 39429, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.6/Untitled_rz1024.glb", "gpusize":86.66 },
+        { "level": 5, "ratio": 30, "faces": 33333, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.7/Untitled_rz1024.glb", "gpusize":86.66 },
+        { "level": 6, "ratio": 20, "faces": 26588, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.8/Untitled_rz1024.glb", "gpusize":86.66 },
+        { "level": 7, "ratio": 10, "faces": 20643, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.9/Untitled_rz512.glb", "gpusize": 28 },
+        { "level": 8, "ratio": 5,  "faces": 11360, "url": "sci-fi_girl_v.02_walkcycle_test/removed0.95/Untitled_rz512.glb", "gpusize": 28 }
+      ]
+    },
+    {
+      "id": "M8",
+      "name": "solar_tower",
+      "s_geo" : 0.052,
+      "s_col" : 0.066,
+      "lods": [ 
+        { "level": 1, "ratio": 80, "faces": 13237, "url": "sci-fi_solar_power_tower_free-download/removed0.2/Untitled_rz2048.glb", "gpusize": 178.96 },
+        { "level": 2, "ratio": 60, "faces": 9928, "url": "sci-fi_solar_power_tower_free-download/removed0.4/Untitled_rz2048.glb", "gpusize": 178.96 },
+        { "level": 3, "ratio": 50, "faces": 8277, "url": "sci-fi_solar_power_tower_free-download/removed0.5/Untitled_rz2048.glb", "gpusize": 178.96 },
+        { "level": 4, "ratio": 40, "faces": 6620, "url": "sci-fi_solar_power_tower_free-download/removed0.6/Untitled_rz1024.glb", "gpusize": 44.72 },
+        { "level": 5, "ratio": 30, "faces": 4963,  "url": "sci-fi_solar_power_tower_free-download/removed0.7/Untitled_rz1024.glb", "gpusize": 44.72 },
+        { "level": 6, "ratio": 20, "faces": 3307,  "url": "sci-fi_solar_power_tower_free-download/removed0.8/Untitled_rz1024.glb", "gpusize": 44.72 },
+        { "level": 7, "ratio": 10, "faces": 1646,  "url": "sci-fi_solar_power_tower_free-download/removed0.9/Untitled_rz512.glb", "gpusize": 11.2 },
+        { "level": 8, "ratio": 5,  "faces": 825,   "url": "sci-fi_solar_power_tower_free-download/removed0.95/Untitled_rz512.glb", "gpusize": 11.2 }
+       ]
+    }
+   
+  ]
+}

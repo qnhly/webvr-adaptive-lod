@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sci-fi Girl v.02 Walkcycle Test
+* source:	https://sketchfab.com/3d-models/sci-fi-girl-v02-walkcycle-test-07ac452d75cc47969234b224422ea85d
+* author:	patrix (https://sketchfab.com/patrix)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sci-fi Girl v.02 Walkcycle Test" (https://sketchfab.com/3d-models/sci-fi-girl-v02-walkcycle-test-07ac452d75cc47969234b224422ea85d) by patrix (https://sketchfab.com/patrix) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

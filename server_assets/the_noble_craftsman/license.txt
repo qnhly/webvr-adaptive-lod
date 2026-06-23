@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Noble Craftsman
+* source:	https://sketchfab.com/3d-models/the-noble-craftsman-a6eb544c300b4683b4d7241ca6a89d13
+* author:	NORBERTO-3D (https://sketchfab.com/norberto3d)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Noble Craftsman" (https://sketchfab.com/3d-models/the-noble-craftsman-a6eb544c300b4683b4d7241ca6a89d13) by NORBERTO-3D (https://sketchfab.com/norberto3d) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
